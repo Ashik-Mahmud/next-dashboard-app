@@ -1,8 +1,6 @@
 import Link from "next/link";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <div className="p-6 bg-slate-50">
       <div className="container mx-auto">
